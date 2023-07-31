@@ -8,8 +8,6 @@
 
 
   spCoinContract
-ZZZZ currDateInSeconds =  1690788629
-addBackDatedSponsorship = async([object Object], 0x70997970c51812dc3a010c7d01b50e0d17dc79c8, 9, 100, 1659231703.0064)
 
 
 *** AFTER CREATE ******************************************************************************************************
@@ -22,7 +20,7 @@ DUMP JSON OBJECT
   "name": "sponsorCoin_V001",
   "symbol": "SPCT_V001",
   "version": "_V001",
-  "creationTime": "July 31, 2023 at 03:30:25 AM EDT",
+  "creationTime": "July 31, 2023 at 04:35:05 AM EDT",
   "location": "America/Toronto",
   "initialTotalSupply": "1000000000000000000000000000",
   "totalSupply": "1000000098999996862812203653",
@@ -37,7 +35,7 @@ DUMP JSON OBJECT
       "accountKey": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
       "balanceOf": "999999989999997148011094230",
       "stakedSPCoins": "100000000000000000000",
-      "creationTime": "July 31, 2023 at 03:30:26 AM EDT",
+      "creationTime": "July 31, 2023 at 04:35:06 AM EDT",
       "verified": "false",
       "sponsorAccountList": [],
       "recipientAccountList": [
@@ -49,20 +47,20 @@ DUMP JSON OBJECT
         {
           "TYPE": "--RECIPIENT_RECORD--",
           "recipientKey": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
-          "creationTime": "July 31, 2023 at 03:30:26 AM EDT",
+          "creationTime": "July 31, 2023 at 04:35:06 AM EDT",
           "stakedSPCoins": "100000000000000000000",
           "recipientRateList": [
             {
               "TYPE": "--RECIPIENT_RATE--",
               "recipientRate": 9,
-              "creationTime": "July 30, 2022 at 09:41:43 PM EDT",
-              "lastUpdateTime": "July 31, 2023 at 03:30:27 AM EDT",
+              "creationTime": "July 30, 2022 at 10:46:23 PM EDT",
+              "lastUpdateTime": "July 31, 2023 at 04:35:07 AM EDT",
               "stakedSPCoins": "100000000000000000000",
               "transactions": [
                 {
                   "TYPE": "--STAKING TRANSACTION RECORD--",
                   "location": "America/Toronto",
-                  "insertionTime": "July 30, 2022 at 09:41:43 PM EDT",
+                  "insertionTime": "July 30, 2022 at 10:46:23 PM EDT",
                   "quantity": "100000000000000000000"
                 }
               ],
@@ -98,7 +96,7 @@ DUMP JSON OBJECT
                   "rewardTransactionList": [
                     {
                       "TYPE": "--REWARD TRANSACTION--",
-                      "updateTime": "July 31, 2023 at 03:30:27 AM EDT",
+                      "updateTime": "July 31, 2023 at 04:35:07 AM EDT",
                       "stakingRewards": "89999997148011094230"
                     }
                   ]
@@ -115,7 +113,7 @@ DUMP JSON OBJECT
       "accountKey": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
       "balanceOf": "8999999714801109423",
       "stakedSPCoins": "0",
-      "creationTime": "July 31, 2023 at 03:30:26 AM EDT",
+      "creationTime": "July 31, 2023 at 04:35:06 AM EDT",
       "verified": "false",
       "sponsorAccountList": [
         "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"
@@ -147,7 +145,7 @@ DUMP JSON OBJECT
 ********************************************************************************
 *** AFTER DELETE ***************************************************************
 ********************************************************************************
-    √ 2. VALIDATE ADD TRANSACTION RATES (3941ms)
+    √ 2. VALIDATE ADD TRANSACTION RATES (3514ms)
 
 
   1 passing (9s)

@@ -1,5 +1,8 @@
 const { } = require("../spCoinTestModule");
+const { } = require("../spCoinProdModule");
+
 // const { } = require("@sponsorcoin/spcoin-test");
+// const { } = require("@sponsorcoin/spcoin-prod");
 
 describe("spCoinContract", function () {
   beforeEach(async () => {
