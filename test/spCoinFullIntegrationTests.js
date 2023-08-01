@@ -1,15 +1,15 @@
-const { } = require("../spCoinTestModule");
-const { } = require("../spCoinProdModule");
+// const { } = require("../spCoinTestModule");
+const { } = require("@sponsorcoin/spcoin-test");
 
-// const { } = require("@sponsorcoin/spcoin-test");
-// const { } = require("@sponsorcoin/spcoin-prod");
+// const { } = require("../spCoinProdModule");
+const { } = require("@sponsorcoin/spcoin-prod");
 
 describe("spCoinContract", function () {
   beforeEach(async () => {
     await initSPCoinTestConnect();
   });
 
- it("2. VALIDATE ADD TRANSACTION RATES", async function () {
+  it("2. VALIDATE ADD TRANSACTION RATES", async function () {
   // Test Successful Record Insertion of Sponsor and 
   // Recipient Account to the Blockchain Network.
   // Account, Recipient and/or Agent are Successfully mutually exclusive.
